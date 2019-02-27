@@ -30,7 +30,8 @@ const styles = {
     position: 'relative' 
   },
   textStyles: {
-    fontSize: 20
+    fontSize: 20,
+    marginBottom: 20
   }
 }
 // make the component avaible to other part

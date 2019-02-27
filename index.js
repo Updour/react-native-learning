@@ -7,7 +7,7 @@ import Header from './src/components/header'
 import Albumlist from './src/components/AlbumList'
 // render component
 const App = () => (
-  <View>
+  <View style={{ flex: 1 }}>
     <Header headerText={'Header!'}/>
     <Albumlist />
   </View>
