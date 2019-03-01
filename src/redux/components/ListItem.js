@@ -51,7 +51,9 @@ const styles = {
   }
 }
 const mapStateToProps = (state, ownProps) => {
+  
   const expanded = state.selectedLibraryId === ownProps.library.item.id
+  // main logic to simple when render renderDescription
   return { expanded }
   // return { selectedLibraryId : state.selectedLibraryId }
 }
